@@ -79,3 +79,5 @@ http://localhost:8080/api/v1
 | `GET /api/v1/users/:id`     | `GET`           | Retrieve a specific user by ID               | None                                                                     |
 | `PUT /api/v1/users/:id`     | `PUT`           | Update a user by ID                          | `{ "username": "johndoe_updated", "email": "johndoe_updated@example.com", "firstName": "John Updated", "lastName": "Doe Updated", "password": "newsecurepassword" }` |
 | `DELETE /api/v1/users/:id`  | `DELETE`        | Delete a user by ID                          | None                                                                     |
+
+
