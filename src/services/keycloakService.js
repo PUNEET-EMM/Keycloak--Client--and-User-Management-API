@@ -7,6 +7,12 @@ import { KEYCLOAK_URL, CLIENT_ID, USERNAME, PASSWORD, REALM } from '../config/ke
 export const authenticateWithKeycloak = async () => {
   try {
 
+    const data = qs.stringify({
+      client_id: CLIENT_ID,
+      username: USERNAME,
+      password: PASSWORD,
+      grant_type: 'password',
+    });
     const response = await axios.post(
       `${KEYCLOAK_URL}/realms/${REALM}/protocol/openid-connect/token`,
       data,
