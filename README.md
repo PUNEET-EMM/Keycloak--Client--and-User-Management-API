@@ -10,7 +10,7 @@ This is a RESTful API for managing clients and users in Keycloak. The API allows
 
 ### Prerequisites
 - **Keycloak**: Install and set up Keycloak on your local machine.
-- **Admin Account**: Ensure you have an admin account in Keycloak.
+- **Admin Account**: Ensure you have an admin user with all necassary premission in Keycloak.
 ### Running the Application
 
 #### 1. Clone the Repository
