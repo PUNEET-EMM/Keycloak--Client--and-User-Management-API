@@ -37,6 +37,7 @@ REALM_NAME=""                        # Your realm name
 ADMIN_USERNAME=""                    # Admin username
 ADMIN_PASSWORD=""                    # Admin password
 CLIENT_ID=""                         # Client ID
+PORT=3000
 ```
 
 #### Run the Server
